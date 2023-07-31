@@ -12,13 +12,13 @@ Este curso es parte de: Ruta Blazor de ASP.NET Core 6
 
 # Descripción de Blazor		
 	
-Introducción al módulo	Clip visto	
+Introducción al módulo	
 
-hola blazor	Clip visto	
+hola blazor		
 
-Comprender los modelos de alojamiento	Clip visto	
+Comprender los modelos de alojamiento		
 
-Demostración: Exploración de los diferentes modelos de hospedaje	Clip visto	
+Demostración: Exploración de los diferentes modelos de hospedaje		
 
 Demostración: Mirando la aplicación terminada		
 
