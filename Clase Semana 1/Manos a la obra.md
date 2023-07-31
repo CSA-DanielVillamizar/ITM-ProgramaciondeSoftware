@@ -56,7 +56,7 @@ A continuación, se presentan algunos ejemplos prácticos de implementación de 
 **Creación de una clase para representar un automóvil:** la clase podría tener datos para representar el color, el modelo y el año del automóvil. También podría tener métodos para representar el arranque del automóvil, la conducción del automóvil y el estacionamiento del automóvil.
   
 **Ejemplo Clase Automóvil:**
-
+```
 public class Car
 {
     public string Color { get; set; }
@@ -78,6 +78,7 @@ public class Car
         // Estacionar el automóvil
     }
 }
+```
 
 - **public class Car:** Esto define la clase "Car", que es una plantilla o molde para crear objetos que representan automóviles.
 - **public string Color { get; set; }:** Aquí tenemos una propiedad llamada "Color". Una propiedad es una variable que está asociada a la clase y permite acceder y modificar su valor. En este caso, la propiedad "Color" es una cadena de texto que representa el color del automóvil.
