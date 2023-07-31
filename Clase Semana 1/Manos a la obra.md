@@ -103,23 +103,23 @@ miCarro.Park();  // Estaciona el automóvil
 
 **Para crear la clase "Car" en Visual Studio, sigue los siguientes pasos:**
 
-1.	Abrir Visual Studio: Inicia el entorno de desarrollo integrado (IDE) Visual Studio en tu computadora.
+1.	Abrir Visual Studio: Inicia el entorno de desarrollo integrado **(IDE)** Visual Studio en tu computadora.
 
-2.	Crear un nuevo proyecto: Selecciona "Archivo" en la barra de menú, luego "Nuevo" y finalmente "Proyecto".
+2.	Crear un nuevo proyecto: Selecciona **"Archivo"** en la barra de menú, luego **"Nuevo"** y finalmente **"Proyecto"**.
 
-3.	Seleccionar el tipo de proyecto: En la ventana "Nuevo Proyecto", elige el tipo de proyecto que desees crear. Por ejemplo, puedes seleccionar "Aplicación web ASP.NET" si deseas crear una aplicación web con C#.
+3.	Seleccionar el tipo de proyecto: En la ventana "Nuevo Proyecto", elige el tipo de proyecto que desees crear. Por ejemplo, puedes seleccionar **"Aplicación web ASP.NET"** si deseas crear una aplicación web con C#.
 
-4.	Elegir la plantilla de proyecto: En la siguiente ventana, selecciona la plantilla que mejor se adapte a tu proyecto. Puedes elegir una plantilla predeterminada para aplicaciones web, como "Aplicación web ASP.NET Vacía".
+4.	Elegir la plantilla de proyecto: En la siguiente ventana, selecciona la plantilla que mejor se adapte a tu proyecto. Puedes elegir una plantilla predeterminada para aplicaciones web, como **"Aplicación web ASP.NET Vacía"**.
 
 5.	Nombrar el proyecto y la solución: Dale un nombre a tu proyecto y, si lo deseas, elige una ubicación para guardarlo. También puedes seleccionar o crear una solución para el proyecto.
 
-6.	Crear la clase "Car": Una vez creado el proyecto, haz clic derecho sobre la carpeta del proyecto en el Explorador de soluciones y selecciona "Agregar" > "Nuevo elemento".
+6.	Crear la clase **"Car"**: Una vez creado el proyecto, haz clic derecho sobre la carpeta del proyecto en el Explorador de soluciones y selecciona **"Agregar"** > "Nuevo elemento".
 
-7.	Seleccionar "Clase": En la ventana "Agregar nuevo elemento", elige "Clase" y haz clic en "Agregar".
+7.	Seleccionar "Clase": En la ventana "Agregar nuevo elemento", elige "**Clase"** y haz clic en **"Agregar"**.
 
-8.	Nombrar la clase: Escribe "Car" como nombre de la clase y asegúrate de que el lenguaje esté configurado en "C#".
+8.	Nombrar la clase: Escribe **"Car"** como nombre de la clase y asegúrate de que el lenguaje esté configurado en **"C#"**.
 
-9.	Definir los atributos de la clase: Agrega las propiedades "Color", "Model" y "Year" a la clase "Car" utilizando la sintaxis de propiedades de C#. **Por ejemplo:**
+9.	Definir los atributos de la clase: Agrega las propiedades **"Color"**, **"Model"** y **"Year"** a la clase **"Car"** utilizando la sintaxis de propiedades de C#. **Por ejemplo:**
 
 ```C#
 public class Car
@@ -153,7 +153,7 @@ public class Car
 }
 ```
 
-Una vez que hayamos completado estos pasos, tendrás creada la clase "Car" en tu proyecto de Visual Studio. Puedes utilizar esta clase como base para crear objetos que representen automóviles y utilizar sus atributos y métodos en tu aplicación.
+Una vez que hayamos completado estos pasos, tendrás creada la clase **"Car"** en tu proyecto de Visual Studio. Puedes utilizar esta clase como base para crear objetos que representen automóviles y utilizar sus atributos y métodos en tu aplicación.
 
 **Creación de una clase para representar una persona:** la clase podría tener datos para representar el nombre, la edad y la dirección de la persona. También podría tener métodos para representar la conversación de la persona, la caminata de la persona y la comida de la persona.
 
@@ -218,7 +218,7 @@ public class Persona
 
 En este caso, las propiedades **"Nombre"** y **"Edad"** son propiedades autoimplementadas. El compilador generará automáticamente el campo privado para cada propiedad y los métodos **"getter"** y **"setter"** para acceder y modificar el valor de las propiedades.
 
-Volvamos al ejemplo de la clase persona, la clase **"Person"** tiene tres atributos: **"Name"** (nombre), **"Age"** (edad) y **"Address"** (dirección), todos con sus respectivos métodos para obtener y establecer los valores de los atributos (propiedades autoimplementadas). Además, la clase tiene tres métodos: **"Talk"** (hablar), **"Walk"**(caminar) y **"Eat"** (comer), que representan acciones que una persona podría realizar. Es importante tener en cuenta que, en el código proporcionado, los métodos no contienen implementación específica (el contenido dentro de las llaves está comentado con "//"), ya que es solo una representación básica de la estructura de la clase. En una aplicación real, estos métodos contendrían el código necesario para realizar las acciones mencionadas.
+Volvamos al ejemplo de la clase persona, la clase **"Person"** tiene tres atributos: **"Name"** (nombre), **"Age"** (edad) y **"Address"** (dirección), todos con sus respectivos métodos para obtener y establecer los valores de los atributos (propiedades autoimplementadas). Además, la clase tiene tres métodos: **"Talk"** (hablar), **"Walk"**(caminar) y **"Eat"** (comer), que representan acciones que una persona podría realizar. Es importante tener en cuenta que, en el código proporcionado, los métodos no contienen implementación específica (el contenido dentro de las llaves está comentado con **"//")**, ya que es solo una representación básica de la estructura de la clase. En una aplicación real, estos métodos contendrían el código necesario para realizar las acciones mencionadas.
 En una aplicación real, los métodos dentro de la clase **"Person"** contendrían el código necesario para realizar las acciones mencionadas en su implementación específica. 
 
 **Aquí te doy un ejemplo de cómo podrían ser implementados los métodos en una aplicación real:**
@@ -260,13 +260,13 @@ En este ejemplo, hemos agregado una implementación específica para cada uno de
 Es importante destacar que la implementación de los métodos puede variar significativamente dependiendo de la funcionalidad requerida en la aplicación. En una aplicación real, los métodos podrían interactuar con bases de datos, realizar cálculos complejos, comunicarse con servicios externos, entre otras muchas posibilidades. La idea principal es que los métodos contengan el código necesario para realizar las acciones específicas que se deseen lograr en la aplicación en la que se esté trabajando.
 En una aplicación real, la implementación de los métodos puede ser mucho más compleja y variada que en el ejemplo que proporcioné anteriormente. Permíteme explicarte con más detalle cómo los métodos podrían interactuar con bases de datos, realizar cálculos complejos y comunicarse con servicios externos:
 
-1.	Interacción con bases de datos: En una aplicación real, los métodos pueden estar diseñados para recuperar y almacenar información en una base de datos. Por ejemplo, el método "Talk" podría almacenar mensajes de conversación en una tabla de la base de datos, mientras que el método "Eat" podría registrar los alimentos consumidos por una persona en una tabla de registro de comidas.
-2.	Cálculos complejos: En aplicaciones más complejas, los métodos pueden involucrar algoritmos y cálculos sofisticados. Por ejemplo, en un sistema de procesamiento de imágenes, el método "ProcessImage" podría aplicar filtros, detectar bordes o realizar operaciones matemáticas avanzadas sobre la imagen.
-3.	Comunicación con servicios externos: En muchas aplicaciones, es necesario comunicarse con servicios externos, como API web, servicios en la nube o sistemas de terceros. Por ejemplo, el método "GetDataFromExternalAPI" podría hacer una solicitud HTTP a una API externa para obtener datos y luego procesar la respuesta.
+1.	Interacción con bases de datos: En una aplicación real, los métodos pueden estar diseñados para recuperar y almacenar información en una base de datos. Por ejemplo, el método **"Talk"** podría almacenar mensajes de conversación en una tabla de la base de datos, mientras que el método **"Eat"** podría registrar los alimentos consumidos por una persona en una tabla de registro de comidas.
+2.	Cálculos complejos: En aplicaciones más complejas, los métodos pueden involucrar algoritmos y cálculos sofisticados. Por ejemplo, en un sistema de procesamiento de imágenes, el método **"ProcessImage"** podría aplicar filtros, detectar bordes o realizar operaciones matemáticas avanzadas sobre la imagen.
+3.	Comunicación con servicios externos: En muchas aplicaciones, es necesario comunicarse con servicios externos, como API web, servicios en la nube o sistemas de terceros. Por ejemplo, el método **"GetDataFromExternalAPI"** podría hacer una solicitud HTTP a una API externa para obtener datos y luego procesar la respuesta.
 4.	Validación y control de errores: En aplicaciones reales, los métodos deben tener en cuenta la validación de datos y el manejo de errores. Por ejemplo, antes de realizar una operación de almacenamiento en la base de datos, el método debe validar los datos de entrada y asegurarse de que sean válidos y seguros.
 5.	Seguridad y autenticación: En aplicaciones que manejan información confidencial, los métodos pueden estar involucrados en la autenticación de usuarios y la aplicación de medidas de seguridad para proteger los datos y garantizar que solo los usuarios autorizados tengan acceso a ciertas funcionalidades.
 La idea principal es que los métodos estén diseñados para realizar tareas específicas y que sean flexibles y escalables para adaptarse a las necesidades de la aplicación. Cada método debe cumplir con su función asignada y contribuir al funcionamiento adecuado de la aplicación en su conjunto. En el desarrollo de aplicaciones reales, la implementación de los métodos es un proceso complejo y crucial para lograr una funcionalidad completa y efectiva del software.
-A continuación, te mostraré cómo se podría reflejar cada uno de los aspectos mencionados en el código de la clase "Persona" en C#:
+A continuación, te mostraré cómo se podría reflejar cada uno de los aspectos mencionados en el código de la clase **"Persona"** en C#:
 
 **1.	Interacción con bases de datos:**
 
@@ -294,7 +294,7 @@ public class Person
 }
 ```
 Para ejemplificar el código de la clase **"Person"** que incluye los métodos para guardar y cargar información de la base de datos, necesitaremos simular una conexión a una base de datos utilizando **Entity Framework**. Entity Framework es un **ORM** (Object-Relational Mapping) que permite mapear objetos en una base de datos relacional y facilita la manipulación de datos. Aquí te presento un ejemplo sencillo de cómo se podría utilizar Entity Framework para guardar y cargar información de la base de datos en la clase "Person":
-Supongamos que tenemos una base de datos llamada "PersonDB" con una tabla "People" que tiene las siguientes columnas: **"Id"** (identificador), **"Name"** (nombre), **"Age"** (edad) y **"Address"** (dirección).
+Supongamos que tenemos una base de datos llamada **"PersonDB"** con una tabla **"People"** que tiene las siguientes columnas: **"Id"** (identificador), **"Name"** (nombre), **"Age"** (edad) y **"Address"** (dirección).
 
 ```C#
 using System;
@@ -349,7 +349,7 @@ public class PersonDbContext : DbContext
 
 En este ejemplo, hemos creado una clase **"Person"** que tiene los atributos **"Name"**, **"Age"** y **"Address"**, junto con los métodos **"SaveToDatabase"** y **"LoadFromDatabase"**. Para utilizar Entity Framework, hemos creado un contexto de base de datos "PersonDbContext" que hereda de DbContext y que incluye un DbSet para la tabla **"People"**.
 
-En el método **"SaveToDatabase"**, utilizamos el contexto de Entity Framework para agregar la persona actual (this) al contexto y luego guardar los cambios en la base de datos mediante el método **"SaveChanges"**.
+En el método **"SaveToDatabase"**, utilizamos el contexto de Entity Framework para agregar la persona actual **(this)** al contexto y luego guardar los cambios en la base de datos mediante el método **"SaveChanges"**.
 En el método **"LoadFromDatabase"**, utilizamos el contexto para buscar una persona en la base de datos por su Id y luego la retornamos.
 Es importante tener en cuenta que este es solo un ejemplo básico para ilustrar el uso de Entity Framework en la clase **"Person"**. En una aplicación real, habría más consideraciones de seguridad, manejo de errores y optimización de consultas, entre otros aspectos a tener en cuenta.
 
