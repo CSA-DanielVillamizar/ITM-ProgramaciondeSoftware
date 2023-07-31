@@ -4,9 +4,9 @@
 
 **Objetivos:**
 
-•	Comprender la importancia de la programación de software en la formación profesional.
-•	Conocer los fundamentos de la programación orientada a objetos.
-•	Identificar conceptos clave como herencia, clase abstracta, polimorfismo e interfaz.
+- Comprender la importancia de la programación de software en la formación profesional.
+- Conocer los fundamentos de la programación orientada a objetos.
+- Identificar conceptos clave como herencia, clase abstracta, polimorfismo e interfaz.
 
 **Contenido:**
 
