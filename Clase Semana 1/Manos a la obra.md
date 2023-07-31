@@ -2,51 +2,514 @@
 
 ### Cátedra Programación de Software y Programática 
 
-**Objetivos:**
+**Presentación:**
 
-•	Comprender la importancia de la programación de software en la formación profesional.
-•	Conocer los fundamentos de la programación orientada a objetos.
-•	Identificar conceptos clave como herencia, clase abstracta, polimorfismo e interfaz.
+¡Hola a todos, me llamo Daniel Villamizar y seré su profesor para este curso de programación orientada a objetos (POO)! Soy ingeniero informático con más de 18 años de experiencia en el campo. He trabajado en una variedad de proyectos, desde software empresarial hasta juegos y aplicaciones móviles. Estoy emocionado de compartir mi conocimiento con ustedes y ayudarlos a aprender los fundamentos de la POO.
+En este curso, aprenderemos sobre los conceptos básicos de la POO, como clases, objetos, herencia, polimorfismo e interfaces. También desarrollaremos habilidades prácticas en el desarrollo de software orientado a objetos.
+Al final de este curso, los estudiantes serán capaces de:
+	Definir y explicar los conceptos básicos de la POO.
+	Desarrollar clases y objetos en un lenguaje de programación orientado a objetos.
+	Utilizar la herencia para extender la funcionalidad de las clases.
+	Aplicar el polimorfismo para reutilizar código.
+	Implementar interfaces para definir comportamientos comunes.
+Espero que disfruten este curso tanto como yo. ¡Comencemos!
+Introducción a la programación orientada a objetos
+Concepto: La programación orientada a objetos (POO) es un paradigma de programación que modela sistemas usando objetos. Un objeto es una entidad que tiene datos y comportamiento. Los datos de un objeto se denominan estado y el comportamiento de un objeto se denomina comportamiento.
+La POO es un paradigma poderoso que se utiliza para desarrollar software de alta calidad. Algunas de las ventajas de la POO incluyen:
+	Facilidad de mantenimiento: el código orientado a objetos es más fácil de mantener que el código procedural porque los objetos están bien definidos y organizados.
+	Flexibilidad: la POO es muy flexible y se puede utilizar para desarrollar una amplia gama de aplicaciones.
+	Portabilidad: el código orientado a objetos es más portable que el código procedural porque los objetos están independientes de la plataforma.
+Herramientas: Las herramientas que utilizaremos para crear los ejemplos de POO son Visual Studio y C#. Visual Studio es un entorno de desarrollo integrado (IDE) que nos permite crear y depurar programas en C#. C# es un lenguaje de programación orientado a objetos desarrollado por Microsoft.
+Ejercicios:
+	Cree una clase para representar un automóvil. La clase debería tener datos para representar el color, el modelo y el año del automóvil. También debería tener métodos para representar el arranque del automóvil, la conducción del automóvil y el estacionamiento del automóvil.
+	Cree una clase para representar una persona. La clase debería tener datos para representar el nombre, la edad y la dirección de la persona. También debería tener métodos para representar la conversación de la persona, la caminata de la persona y la comida de la persona.
+	Cree una clase para representar un banco. La clase debería tener datos para representar el nombre del banco, la dirección del banco y la lista de clientes del banco. También debería tener métodos para representar la apertura de una cuenta, la transferencia de fondos y el pago de facturas.
 
-**Contenido:**
+Conceptos fundamentales de la POO
+Los conceptos fundamentales de la POO son:
+	Clases: una clase es una plantilla para crear objetos. Una clase define los datos y el comportamiento de los objetos que crea.
+	Objetos: un objeto es una instancia de una clase. Un objeto tiene los datos y el comportamiento definidos por su clase.
+	Herencia: la herencia es la capacidad de una clase de heredar los datos y el comportamiento de otra clase.
+	Polimorfismo: el polimorfismo es la capacidad de una función para realizar diferentes tareas dependiendo del tipo de objeto al que se llama.
+	Interfaces: una interfaz es un contrato que define los comportamientos comunes de una clase.
 
-•	Presentación del curso y objetivos de la materia.
-•	Explicación del contenido que se abordará a lo largo del curso.
-•	Presentación del docente y expectativas del proceso de aprendizaje.
-•	Introducción a la programación orientada a objetos.
-•	Definición y concepto de programación orientada a objetos (POO).
-•	Ventajas y características principales de la POO.
-•	Comparación con otros paradigmas de programación.
-•	Explicación de los conceptos fundamentales: clases, objetos, herencia, polimorfismo e interfaz.
-•	Definición de clase y objeto como elementos clave en la POO.
-•	Comprender el concepto de herencia y su importancia en la jerarquía de clases.
-•	Explicación del polimorfismo y cómo permite el uso de múltiples formas de un objeto.
-•	Introducción al uso de interfaces para definir comportamientos comunes entre clases.
-•	Ejemplos prácticos de implementación de paradigmas de programación orientada a objetos.
-•	Desarrollo de ejemplos sencillos para ilustrar la creación de clases y objetos.
-•	Ejemplos de herencia para mostrar cómo una clase puede heredar atributos y comportamientos de otra.
-•	Casos de polimorfismo para demostrar el uso de métodos con la misma firma, pero comportamientos diferentes.
-•	Implementación de interfaces para definir comportamientos compartidos entre distintas clases.
+Ejemplos prácticos de implementación de paradigmas de programación orientada a objetos
+A continuación, se presentan algunos ejemplos prácticos de implementación de paradigmas de programación orientada a objetos:
+	Creación de una clase para representar un automóvil: la clase podría tener datos para representar el color, el modelo y el año del automóvil. También podría tener métodos para representar el arranque del automóvil, la conducción del automóvil y el estacionamiento del automóvil.
+Ejemplo Clase Automóvil: 
 
-**Actividades:**
+public class Car
+{
+    public string Color { get; set; }
+    public string Model { get; set; }
+    public int Year { get; set; }
 
-•	Presentación del docente y presentación de los estudiantes.
-•	Introducción del instructor y su experiencia en programación y POO.
-•	Breve presentación de cada estudiante para conocer su nivel de conocimiento.
-•	Realización de ejercicios prácticos para reforzar los conceptos de programación orientada a objetos.
-•	Desarrollo de pequeños programas que involucren la creación de clases y objetos.
-•	Prácticas de herencia para entender cómo se extiende la funcionalidad entre clases relacionadas.
-•	Ejercicios de polimorfismo para explorar el uso de métodos con comportamientos distintos.
-•	Implementación de interfaces para definir y utilizar comportamientos comunes.
-•	Evaluación diagnóstica para medir el conocimiento previo de los estudiantes.
-•	Realización de una breve prueba escrita para evaluar el nivel de comprensión inicial.
-•	Discusión de los resultados para identificar áreas de oportunidad y fortalezas.
-Recursos:
-•	Presentación de PowerPoint sobre programación orientada a objetos.
-•	Diapositivas que contengan definiciones, ejemplos y gráficos para apoyar la explicación.
-•	Se utilizará el proyector para mostrar las diapositivas durante la clase.
-•	Ejercicios prácticos en papel y lápiz.
-•	Se proporcionarán hojas de ejercicios para que los estudiantes practiquen la creación de clases, herencia, polimorfismo e interfaces.
-•	Proyector y pizarra.
-•	Utilización del proyector para mostrar ejemplos de código y demostraciones prácticas.
-•	Uso de la pizarra para esquematizar conceptos y aclarar dudas durante la clase.
+    public void Start()
+    {
+        // Iniciar el automóvil
+    }
+
+    public void Drive()
+    {
+        // Conducir el automóvil
+    }
+
+    public void Park()
+    {
+        // Estacionar el automóvil
+    }
+}
+
+	public class Car: Esto define la clase "Car", que es una plantilla o molde para crear objetos que representan automóviles.
+	public string Color { get; set; }: Aquí tenemos una propiedad llamada "Color". Una propiedad es una variable que está asociada a la clase y permite acceder y modificar su valor. En este caso, la propiedad "Color" es una cadena de texto que representa el color del automóvil.
+	public string Model { get; set; }: Esta es otra propiedad llamada "Model", que representa el modelo del automóvil.
+	public int Year { get; set; }: La propiedad "Year" es un entero que indica el año de fabricación del automóvil.
+	public void Start(): Aquí tenemos un método llamado "Start". Los métodos son acciones que puede realizar un objeto de la clase. En este caso, el método "Start" representa la acción de iniciar el automóvil.
+	public void Drive(): El método "Drive" representa la acción de conducir el automóvil.
+	public void Park(): Por último, el método "Park" representa la acción de estacionar el automóvil.
+
+Este código define una clase "Car" con atributos que representan el color, modelo y año del automóvil, y métodos que permiten iniciar, conducir y estacionar el automóvil. Esta clase podría utilizarse como base para crear objetos específicos de automóviles con sus características únicas. Por ejemplo:
+Car miCarro = new Car();
+miCarro.Color = "Rojo";
+miCarro.Model = "Sedán";
+miCarro.Year = 2022;
+
+miCarro.Start(); // Inicia el automóvil
+miCarro.Drive(); // Conduce el automóvil
+miCarro.Park();  // Estaciona el automóvil
+
+Para crear la clase "Car" en Visual Studio, sigue los siguientes pasos:
+
+1.	Abrir Visual Studio: Inicia el entorno de desarrollo integrado (IDE) Visual Studio en tu computadora.
+
+2.	Crear un nuevo proyecto: Selecciona "Archivo" en la barra de menú, luego "Nuevo" y finalmente "Proyecto".
+
+3.	Seleccionar el tipo de proyecto: En la ventana "Nuevo Proyecto", elige el tipo de proyecto que desees crear. Por ejemplo, puedes seleccionar "Aplicación web ASP.NET" si deseas crear una aplicación web con C#.
+
+4.	Elegir la plantilla de proyecto: En la siguiente ventana, selecciona la plantilla que mejor se adapte a tu proyecto. Puedes elegir una plantilla predeterminada para aplicaciones web, como "Aplicación web ASP.NET Vacía".
+
+5.	Nombrar el proyecto y la solución: Dale un nombre a tu proyecto y, si lo deseas, elige una ubicación para guardarlo. También puedes seleccionar o crear una solución para el proyecto.
+
+6.	Crear la clase "Car": Una vez creado el proyecto, haz clic derecho sobre la carpeta del proyecto en el Explorador de soluciones y selecciona "Agregar" > "Nuevo elemento".
+
+7.	Seleccionar "Clase": En la ventana "Agregar nuevo elemento", elige "Clase" y haz clic en "Agregar".
+
+8.	Nombrar la clase: Escribe "Car" como nombre de la clase y asegúrate de que el lenguaje esté configurado en "C#".
+
+9.	Definir los atributos de la clase: Agrega las propiedades "Color", "Model" y "Year" a la clase "Car" utilizando la sintaxis de propiedades de C#. Por ejemplo:
+
+public class Car
+{
+    public string Color { get; set; }
+    public string Model { get; set; }
+    public int Year { get; set; }
+}
+
+Agregar los métodos a la clase: Añade los métodos "Start", "Drive" y "Park" a la clase "Car". Puedes utilizar la misma sintaxis de métodos en C#. Por ejemplo:
+public class Car
+{
+    public string Color { get; set; }
+    public string Model { get; set; }
+    public int Year { get; set; }
+
+    public void Start()
+    {
+        // Implementación del método Start
+    }
+
+    public void Drive()
+    {
+        // Implementación del método Drive
+    }
+
+    public void Park()
+    {
+        // Implementación del método Park
+    }
+}
+
+Una vez que hayamos completado estos pasos, tendrás creada la clase "Car" en tu proyecto de Visual Studio. Puedes utilizar esta clase como base para crear objetos que representen automóviles y utilizar sus atributos y métodos en tu aplicación.
+•	Creación de una clase para representar una persona: la clase podría tener datos para representar el nombre, la edad y la dirección de la persona. También podría tener métodos para representar la conversación de la persona, la caminata de la persona y la comida de la persona.
+Ejemplo Clase Persona: 
+public class Person
+{
+    // Atributos de la clase (propiedades autoimplementadas)
+    public string Name { get; set; }   // Atributo "Nombre" de tipo cadena de texto (string)
+    public int Age { get; set; }       // Atributo "Edad" de tipo entero (int)
+    public string Address { get; set; } // Atributo "Dirección" de tipo cadena de texto (string)
+
+    // Métodos de la clase
+    public void Talk()
+    {
+        // Método "Hablar"
+        // Este método representa la acción de hablar con alguien.
+        // Dentro de este método, se podría agregar código para mostrar un mensaje en la consola o realizar alguna acción específica relacionada con hablar.
+    }
+
+    public void Walk()
+    {
+        // Método "Caminar"
+        // Este método representa la acción de caminar.
+        // Al igual que en el método "Talk", se podría agregar código para mostrar mensajes o realizar acciones relacionadas con caminar.
+    }
+
+    public void Eat()
+    {
+        // Método "Comer"
+        // Este método representa la acción de comer.
+        // Al igual que en los métodos anteriores, aquí también se podría agregar código para mostrar mensajes o realizar acciones relacionadas con comer.
+    }
+}
+Nota: Una "propiedad autoimplementada" (también conocida como "propiedad automática" o "propiedad auto-implementada") es una característica en C# que permite definir rápidamente propiedades de una clase sin necesidad de crear campos privados y métodos "getter" y "setter" por separado.
+En lugar de definir explícitamente un campo privado y métodos "getter" y "setter" para una propiedad, se puede utilizar la sintaxis de propiedad autoimplementada. Esta sintaxis simplificada permite que el compilador genere automáticamente un campo privado y los métodos de acceso (getter y setter) para la propiedad en tiempo de compilación.
+La sintaxis de una propiedad autoimplementada es la siguiente:
+public TipoDeDato NombreDePropiedad { get; set; }
+
+Donde:
+	"public": Es el modificador de acceso que especifica que la propiedad es accesible desde cualquier parte del programa.
+	"TipoDeDato": Es el tipo de dato que representa el valor almacenado en la propiedad.
+	"NombreDePropiedad": Es el nombre de la propiedad que se va a definir.
+
+Al utilizar esta sintaxis, el compilador crea automáticamente un campo privado para almacenar el valor de la propiedad y genera los métodos "getter" y "setter" para acceder y modificar ese valor. Los nombres de estos campos y métodos serán generados automáticamente por el compilador y no se verán explícitamente en el código fuente.
+Un ejemplo de propiedad autoimplementada sería:
+public class Persona
+{
+    public string Nombre { get; set; }
+    public int Edad { get; set; }
+}
+
+En este caso, las propiedades "Nombre" y "Edad" son propiedades autoimplementadas. El compilador generará automáticamente el campo privado para cada propiedad y los métodos "getter" y "setter" para acceder y modificar el valor de las propiedades.
+
+Volvamos al ejemplo de la clase persona, la clase "Person" tiene tres atributos: "Name" (nombre), "Age" (edad) y "Address" (dirección), todos con sus respectivos métodos para obtener y establecer los valores de los atributos (propiedades autoimplementadas). Además, la clase tiene tres métodos: "Talk" (hablar), "Walk" (caminar) y "Eat" (comer), que representan acciones que una persona podría realizar. Es importante tener en cuenta que, en el código proporcionado, los métodos no contienen implementación específica (el contenido dentro de las llaves está comentado con "//"), ya que es solo una representación básica de la estructura de la clase. En una aplicación real, estos métodos contendrían el código necesario para realizar las acciones mencionadas.
+En una aplicación real, los métodos dentro de la clase "Person" contendrían el código necesario para realizar las acciones mencionadas en su implementación específica. Aquí te doy un ejemplo de cómo podrían ser implementados los métodos en una aplicación real:
+public class Person
+{
+    // Atributos de la clase (propiedades autoimplementadas)
+    public string Name { get; set; }   // Atributo "Nombre" de tipo cadena de texto (string)
+    public int Age { get; set; }       // Atributo "Edad" de tipo entero (int)
+    public string Address { get; set; } // Atributo "Dirección" de tipo cadena de texto (string)
+
+    // Métodos de la clase
+    public void Talk()
+    {
+        // Método "Hablar"
+        // Implementación específica para el método Talk en una aplicación real:
+        Console.WriteLine("Hola, ¿cómo estás?"); // Mostrar un mensaje en la consola.
+    }
+
+    public void Walk()
+    {
+        // Método "Caminar"
+        // Implementación específica para el método Walk en una aplicación real:
+        Console.WriteLine("Caminando..."); // Mostrar un mensaje en la consola.
+    }
+
+    public void Eat()
+    {
+        // Método "Comer"
+        // Implementación específica para el método Eat en una aplicación real:
+        Console.WriteLine("¡Hora de comer!"); // Mostrar un mensaje en la consola.
+        // Código adicional para realizar acciones relacionadas con comer, como registrar la comida consumida o calcular calorías, por ejemplo.
+    }
+}
+
+En este ejemplo, hemos agregado una implementación específica para cada uno de los métodos "Talk", "Walk" y "Eat". Al llamar a estos métodos en una aplicación real, se mostrarían mensajes específicos en la consola y se podrían llevar a cabo acciones adicionales relacionadas con las acciones que representan.
+Es importante destacar que la implementación de los métodos puede variar significativamente dependiendo de la funcionalidad requerida en la aplicación. En una aplicación real, los métodos podrían interactuar con bases de datos, realizar cálculos complejos, comunicarse con servicios externos, entre otras muchas posibilidades. La idea principal es que los métodos contengan el código necesario para realizar las acciones específicas que se deseen lograr en la aplicación en la que se esté trabajando.
+En una aplicación real, la implementación de los métodos puede ser mucho más compleja y variada que en el ejemplo que proporcioné anteriormente. Permíteme explicarte con más detalle cómo los métodos podrían interactuar con bases de datos, realizar cálculos complejos y comunicarse con servicios externos:
+1.	Interacción con bases de datos: En una aplicación real, los métodos pueden estar diseñados para recuperar y almacenar información en una base de datos. Por ejemplo, el método "Talk" podría almacenar mensajes de conversación en una tabla de la base de datos, mientras que el método "Eat" podría registrar los alimentos consumidos por una persona en una tabla de registro de comidas.
+2.	Cálculos complejos: En aplicaciones más complejas, los métodos pueden involucrar algoritmos y cálculos sofisticados. Por ejemplo, en un sistema de procesamiento de imágenes, el método "ProcessImage" podría aplicar filtros, detectar bordes o realizar operaciones matemáticas avanzadas sobre la imagen.
+3.	Comunicación con servicios externos: En muchas aplicaciones, es necesario comunicarse con servicios externos, como API web, servicios en la nube o sistemas de terceros. Por ejemplo, el método "GetDataFromExternalAPI" podría hacer una solicitud HTTP a una API externa para obtener datos y luego procesar la respuesta.
+4.	Validación y control de errores: En aplicaciones reales, los métodos deben tener en cuenta la validación de datos y el manejo de errores. Por ejemplo, antes de realizar una operación de almacenamiento en la base de datos, el método debe validar los datos de entrada y asegurarse de que sean válidos y seguros.
+5.	Seguridad y autenticación: En aplicaciones que manejan información confidencial, los métodos pueden estar involucrados en la autenticación de usuarios y la aplicación de medidas de seguridad para proteger los datos y garantizar que solo los usuarios autorizados tengan acceso a ciertas funcionalidades.
+La idea principal es que los métodos estén diseñados para realizar tareas específicas y que sean flexibles y escalables para adaptarse a las necesidades de la aplicación. Cada método debe cumplir con su función asignada y contribuir al funcionamiento adecuado de la aplicación en su conjunto. En el desarrollo de aplicaciones reales, la implementación de los métodos es un proceso complejo y crucial para lograr una funcionalidad completa y efectiva del software.
+A continuación, te mostraré cómo se podría reflejar cada uno de los aspectos mencionados en el código de la clase "Persona" en C#:
+1.	Interacción con bases de datos:
+public class Person
+{
+    // Atributos de la clase (propiedades autoimplementadas)
+    public string Name { get; set; }   // Atributo "Nombre" de tipo cadena de texto (string)
+    public int Age { get; set; }       // Atributo "Edad" de tipo entero (int)
+    public string Address { get; set; } // Atributo "Dirección" de tipo cadena de texto (string)
+
+    // Método para guardar la información de la persona en la base de datos
+    public void SaveToDatabase()
+    {
+        // Código para conectar con la base de datos y almacenar los datos de la persona.
+        // Por ejemplo, utilizando ADO.NET, Entity Framework o algún ORM (Object-Relational Mapping).
+    }
+
+    // Método para cargar la información de la persona desde la base de datos
+    public void LoadFromDatabase(int personId)
+    {
+        // Código para buscar la información de la persona en la base de datos utilizando el ID proporcionado.
+        // Por ejemplo, utilizando ADO.NET, Entity Framework o algún ORM (Object-Relational Mapping).
+    }
+}
+
+Para ejemplificar el código de la clase "Person" que incluye los métodos para guardar y cargar información de la base de datos, necesitaremos simular una conexión a una base de datos utilizando Entity Framework. Entity Framework es un ORM (Object-Relational Mapping) que permite mapear objetos en una base de datos relacional y facilita la manipulación de datos. Aquí te presento un ejemplo sencillo de cómo se podría utilizar Entity Framework para guardar y cargar información de la base de datos en la clase "Person":
+Supongamos que tenemos una base de datos llamada "PersonDB" con una tabla "People" que tiene las siguientes columnas: "Id" (identificador), "Name" (nombre), "Age" (edad) y "Address" (dirección).
+
+using System;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
+
+public class Person
+{
+    // Atributos de la clase (propiedades autoimplementadas)
+    public string Name { get; set; }   // Atributo "Nombre" de tipo cadena de texto (string)
+    public int Age { get; set; }       // Atributo "Edad" de tipo entero (int)
+    public string Address { get; set; } // Atributo "Dirección" de tipo cadena de texto (string)
+
+    // Método para guardar la información de la persona en la base de datos
+    public void SaveToDatabase()
+    {
+        using (var dbContext = new PersonDbContext())
+        {
+            // Agregar la persona al contexto de Entity Framework
+            dbContext.People.Add(this);
+
+            // Guardar los cambios en la base de datos
+            dbContext.SaveChanges();
+        }
+    }
+
+    // Método para cargar la información de la persona desde la base de datos
+    public static Person LoadFromDatabase(int personId)
+    {
+        using (var dbContext = new PersonDbContext())
+        {
+            // Buscar la persona en la base de datos por su Id
+            var person = dbContext.People.Find(personId);
+
+            return person;
+        }
+    }
+}
+
+public class PersonDbContext : DbContext
+{
+    // DbSet para la tabla "People" en la base de datos
+    public DbSet<Person> People { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        // Configurar la cadena de conexión a la base de datos
+        optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=PersonDB;Integrated Security=True");
+    }
+}
+
+En este ejemplo, hemos creado una clase "Person" que tiene los atributos "Name", "Age" y "Address", junto con los métodos "SaveToDatabase" y "LoadFromDatabase". Para utilizar Entity Framework, hemos creado un contexto de base de datos "PersonDbContext" que hereda de DbContext y que incluye un DbSet para la tabla "People".
+
+En el método "SaveToDatabase", utilizamos el contexto de Entity Framework para agregar la persona actual (this) al contexto y luego guardar los cambios en la base de datos mediante el método "SaveChanges".
+En el método "LoadFromDatabase", utilizamos el contexto para buscar una persona en la base de datos por su Id y luego la retornamos.
+Es importante tener en cuenta que este es solo un ejemplo básico para ilustrar el uso de Entity Framework en la clase "Person". En una aplicación real, habría más consideraciones de seguridad, manejo de errores y optimización de consultas, entre otros aspectos a tener en cuenta.
+A continuación, te mostraré cómo se podría mejorar el código para tener en cuenta consideraciones importantes en una aplicación real, como seguridad, manejo de errores y optimización de consultas utilizando Entity Framework:
+using System;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
+
+public class Person
+{
+    // Atributos de la clase (propiedades autoimplementadas)
+    public string Name { get; set; }   // Atributo "Nombre" de tipo cadena de texto (string)
+    public int Age { get; set; }       // Atributo "Edad" de tipo entero (int)
+    public string Address { get; set; } // Atributo "Dirección" de tipo cadena de texto (string)
+
+    // Método para guardar la información de la persona en la base de datos
+    public void SaveToDatabase()
+    {
+        try
+        {
+            using (var dbContext = new PersonDbContext())
+            {
+                // Agregar la persona al contexto de Entity Framework
+                dbContext.People.Add(this);
+
+                // Guardar los cambios en la base de datos
+                dbContext.SaveChanges();
+            }
+        }
+        catch (DbUpdateException ex)
+        {
+            // Manejo de errores específicos de Entity Framework al guardar en la base de datos.
+            // Aquí podrías realizar acciones como registrar el error en un archivo de registro o notificar al administrador del sistema.
+            Console.WriteLine("Error al guardar la persona en la base de datos: " + ex.Message);
+        }
+    }
+
+    // Método para cargar la información de la persona desde la base de datos
+    public static Person LoadFromDatabase(int personId)
+    {
+        try
+        {
+            using (var dbContext = new PersonDbContext())
+            {
+                // Buscar la persona en la base de datos por su Id
+                var person = dbContext.People.Find(personId);
+
+                return person;
+            }
+        }
+        catch (Exception ex)
+        {
+            // Manejo de errores al cargar la información desde la base de datos.
+            // Aquí podrías realizar acciones como registrar el error en un archivo de registro o mostrar un mensaje de error al usuario.
+            Console.WriteLine("Error al cargar la persona desde la base de datos: " + ex.Message);
+            return null;
+        }
+    }
+}
+
+public class PersonDbContext : DbContext
+{
+    // DbSet para la tabla "People" en la base de datos
+    public DbSet<Person> People { get; set; }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        // Configurar la cadena de conexión a la base de datos
+        optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=PersonDB;Integrated Security=True");
+    }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        // Configurar reglas de seguridad u otras configuraciones de Entity Framework, si es necesario.
+    }
+}
+
+En este ejemplo, hemos realizado las siguientes mejoras:
+	Manejo de errores: Se han agregado bloques "try-catch" en los métodos "SaveToDatabase" y "LoadFromDatabase" para capturar excepciones que puedan ocurrir al interactuar con la base de datos a través de Entity Framework. De esta manera, si ocurre algún error, podemos manejarlo adecuadamente y tomar acciones específicas, como registrar el error o mostrar un mensaje de error al usuario.
+	Consideraciones de seguridad: Aunque en este ejemplo no hemos implementado reglas de seguridad específicas, es importante tener en cuenta que, en una aplicación real, debemos considerar medidas de seguridad, como validar y sanitizar los datos de entrada, proteger la base de datos contra ataques de inyección de SQL y asegurarnos de que los usuarios tengan los permisos adecuados para acceder a los datos.
+	Optimización de consultas: En este ejemplo, hemos utilizado el método "Find" de DbSet para buscar una persona por su Id, que es una consulta eficiente si el Id es una clave primaria. Sin embargo, en aplicaciones más complejas, es posible que necesitemos realizar consultas más elaboradas y optimizarlas utilizando las capacidades de consultas de LINQ o SQL de Entity Framework.
+Recuerda que el código real puede variar dependiendo de las necesidades específicas de la aplicación y de las políticas de seguridad y manejo de errores que se deseen implementar. Estas mejoras son solo ejemplos básicos para ilustrar cómo podemos tener en cuenta consideraciones importantes en una aplicación real que utiliza Entity Framework.
+
+2.	Cálculos complejos:
+public class Person
+{
+    // Atributos de la clase (propiedades autoimplementadas)
+    public string Name { get; set; }   // Atributo "Nombre" de tipo cadena de texto (string)
+    public int Age { get; set; }       // Atributo "Edad" de tipo entero (int)
+    public string Address { get; set; } // Atributo "Dirección" de tipo cadena de texto (string)
+
+    // Método para calcular la edad promedio de un grupo de personas
+    public static double CalculateAverageAge(List<Person> people)
+    {
+        // Código para realizar el cálculo del promedio de edades del grupo de personas.
+        // Por ejemplo, utilizando LINQ o algoritmos matemáticos específicos.
+        int totalAge = 0;
+        foreach (Person person in people)
+        {
+            totalAge += person.Age;
+        }
+        return totalAge / (double)people.Count;
+    }
+}
+
+
+3.	Comunicación con servicios externos:
+public class Person
+{
+    // Atributos de la clase (propiedades autoimplementadas)
+    public string Name { get; set; }   // Atributo "Nombre" de tipo cadena de texto (string)
+    public int Age { get; set; }       // Atributo "Edad" de tipo entero (int)
+    public string Address { get; set; } // Atributo "Dirección" de tipo cadena de texto (string)
+
+    // Método para obtener información de una API externa
+    public void GetDataFromExternalAPI(string apiUrl)
+    {
+        // Código para realizar una solicitud HTTP a la API externa utilizando HttpClient o WebClient, por ejemplo.
+        // Luego, procesar la respuesta y actualizar los atributos de la persona con la información obtenida.
+    }
+}
+
+
+4.	Validación y control de errores:
+public class Person
+{
+    // Atributos de la clase (propiedades autoimplementadas)
+    public string Name { get; set; }   // Atributo "Nombre" de tipo cadena de texto (string)
+    public int Age { get; set; }       // Atributo "Edad" de tipo entero (int)
+    public string Address { get; set; } // Atributo "Dirección" de tipo cadena de texto (string)
+
+    // Método para validar la edad de una persona
+    public bool ValidateAge()
+    {
+        // Código para verificar que la edad esté dentro de un rango válido (por ejemplo, entre 0 y 120 años).
+        // En caso de que la edad no cumpla con los criterios de validación, se podría lanzar una excepción o devolver false.
+        if (Age >= 0 && Age <= 120)
+        {
+            return true;
+        }
+        return false;
+    }
+}
+
+
+5.	Seguridad y autenticación:
+public class Person
+{
+    // Atributos de la clase (propiedades autoimplementadas)
+    public string Name { get; set; }   // Atributo "Nombre" de tipo cadena de texto (string)
+    public int Age { get; set; }       // Atributo "Edad" de tipo entero (int)
+    public string Address { get; set; } // Atributo "Dirección" de tipo cadena de texto (string)
+
+    // Método para autenticar a una persona en la aplicación
+    public bool Authenticate(string username, string password)
+    {
+        // Código para verificar que el usuario y contraseña proporcionados coincidan con los almacenados en la base de datos.
+        // Si la autenticación es exitosa, se podría devolver true; de lo contrario, false.
+    }
+}
+
+En cada uno de los métodos mencionados, la implementación dependerá de la lógica específica que se desee lograr en la aplicación. Estos ejemplos ilustran cómo los métodos de la clase "Person" podrían extenderse para incluir funcionalidades más complejas y abarcar distintos aspectos de una aplicación real. Es importante recordar que el código real puede variar dependiendo de los requerimientos y características de cada proyecto en particular.
+	Creación de una clase para representar un banco: la clase podría tener datos para representar el nombre del banco, la dirección del banco y la lista de clientes del banco. También podría tener métodos para representar la apertura de una cuenta, la transferencia de fondos y el pago de facturas.
+Ejemplo Clase Bank: 
+
+public class Bank
+{
+    public string Name { get; set; }
+    public string Address { get; set; }
+    public List<Customer> Customers { get; set; }
+
+    public void OpenAccount()
+    {
+        // Abrir una cuenta bancaria
+    }
+
+    public void TransferFunds()
+    {
+        // Transferir fondos entre cuentas
+    }
+
+    public void PayBills()
+    {
+        // Pagar facturas
+    }
+}
+
+El código proporcionado define una clase llamada "Bank" (Banco en español) que representa un banco en un sistema. Explicaré cada parte del código:
+
+Atributos de la clase:
+	"Name": Representa el nombre del banco y es una propiedad (propiedad autoimplementada) que permite obtener y establecer el valor del nombre del banco.
+	"Address": Representa la dirección del banco y también es una propiedad que permite obtener y establecer el valor de la dirección.
+	"Customers": Es una lista de objetos de la clase "Customer" (Cliente en español) que almacena la información de los clientes que tienen cuentas en este banco. Los clientes se almacenarán en una lista y se podrán agregar, eliminar y modificar.
+
+Métodos de la clase:
+	"OpenAccount()": Este método representa la acción de abrir una cuenta bancaria en el banco. Aunque en el código proporcionado no hay implementación detallada (se comentó con "// Open a bank account"), se podría escribir el código necesario para llevar a cabo el proceso de apertura de una cuenta, como asignar un número de cuenta único al cliente, establecer el saldo inicial, etc.
+
+	"TransferFunds()": Este método representa la acción de transferir fondos entre cuentas. De manera similar al método anterior, la implementación real de la transferencia de fondos se realizaría en el lugar donde se encuentra el comentario "// Transfer funds between accounts". Aquí se manejaría la lógica necesaria para asegurar que la transferencia sea válida y se actualicen los saldos de las cuentas involucradas.
+
+	"PayBills()": Este método representa la acción de pagar facturas. Una vez más, la implementación real se realizaría en el lugar del comentario "// Pay bills". Aquí se incluiría la lógica para verificar la disponibilidad de fondos en la cuenta del cliente y, si es posible, efectuar el pago de las facturas.
+
+La clase "Bank" representa la entidad del banco y contiene propiedades para su nombre y dirección, una lista de clientes ("Customers") y métodos para llevar a cabo acciones bancarias como abrir cuentas, transferir fondos y pagar facturas. Sin embargo, para que el código sea completamente funcional, es necesario agregar la implementación detallada de cada método.
+
+Actividades
+A continuación, se presentan algunas actividades que se pueden realizar para reforzar los conceptos de programación orientada a objetos:
+	Desarrollar ejercicios prácticos para ilustrar la creación de clases y objetos.
+	Desarrollar pequeños programas que involucren la creación de clases y objetos.
+	Practicar la herencia para entender cómo se extiende la funcionalidad entre clases relacionadas.
+	Realizar ejercicios de polimorfismo para explorar el uso de métodos con comportamientos distintos.
+	Implementar interfaces para definir y utilizar comportamientos comunes.
+	Realizar una evaluación diagnóstica para medir el conocimiento previo de los estudiantes.
+	Realizar una breve prueba escrita para evaluar el nivel de comprensión inicial.
+	Discutir los resultados para identificar áreas de oportunidad y fortalezas.
