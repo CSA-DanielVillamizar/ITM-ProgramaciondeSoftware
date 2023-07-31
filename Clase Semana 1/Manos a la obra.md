@@ -90,6 +90,7 @@ public class Car
 
 Este código define una clase "Car" con atributos que representan el color, modelo y año del automóvil, y métodos que permiten iniciar, conducir y estacionar el automóvil. Esta clase podría utilizarse como base para crear objetos específicos de automóviles con sus características únicas. **Por ejemplo:**
 
+```C#
 Car miCarro = new Car();
 miCarro.Color = "Rojo";
 miCarro.Model = "Sedán";
@@ -98,6 +99,7 @@ miCarro.Year = 2022;
 miCarro.Start(); // Inicia el automóvil
 miCarro.Drive(); // Conduce el automóvil
 miCarro.Park();  // Estaciona el automóvil
+```
 
 **Para crear la clase "Car" en Visual Studio, sigue los siguientes pasos:**
 
@@ -119,6 +121,7 @@ miCarro.Park();  // Estaciona el automóvil
 
 9.	Definir los atributos de la clase: Agrega las propiedades "Color", "Model" y "Year" a la clase "Car" utilizando la sintaxis de propiedades de C#. **Por ejemplo:**
 
+```C#
 public class Car
 {
     public string Color { get; set; }
@@ -148,6 +151,7 @@ public class Car
         // Implementación del método Park
     }
 }
+```
 
 Una vez que hayamos completado estos pasos, tendrás creada la clase "Car" en tu proyecto de Visual Studio. Puedes utilizar esta clase como base para crear objetos que representen automóviles y utilizar sus atributos y métodos en tu aplicación.
 
@@ -155,6 +159,7 @@ Una vez que hayamos completado estos pasos, tendrás creada la clase "Car" en tu
 
 **Ejemplo Clase Persona:**
 
+```C#
 public class Person
 {
     // Atributos de la clase (propiedades autoimplementadas)
@@ -184,6 +189,7 @@ public class Person
         // Al igual que en los métodos anteriores, aquí también se podría agregar código para mostrar mensajes o realizar acciones relacionadas con comer.
     }
 }
+```
 
 **Nota:** Una **"propiedad autoimplementada"** (también conocida como **"propiedad automática"** o **"propiedad auto-implementada"**) es una característica en C# que permite definir rápidamente propiedades de una clase sin necesidad de crear campos privados y métodos **"getter"** y **"setter"** por separado.
 
@@ -202,17 +208,22 @@ Al utilizar esta sintaxis, el compilador crea automáticamente un campo privado 
 
 **Un ejemplo de propiedad autoimplementada sería:**
 
+```C#
 public class Persona
 {
     public string Nombre { get; set; }
     public int Edad { get; set; }
 }
+```
 
 En este caso, las propiedades **"Nombre"** y **"Edad"** son propiedades autoimplementadas. El compilador generará automáticamente el campo privado para cada propiedad y los métodos **"getter"** y **"setter"** para acceder y modificar el valor de las propiedades.
 
 Volvamos al ejemplo de la clase persona, la clase **"Person"** tiene tres atributos: **"Name"** (nombre), **"Age"** (edad) y **"Address"** (dirección), todos con sus respectivos métodos para obtener y establecer los valores de los atributos (propiedades autoimplementadas). Además, la clase tiene tres métodos: **"Talk"** (hablar), **"Walk"**(caminar) y **"Eat"** (comer), que representan acciones que una persona podría realizar. Es importante tener en cuenta que, en el código proporcionado, los métodos no contienen implementación específica (el contenido dentro de las llaves está comentado con "//"), ya que es solo una representación básica de la estructura de la clase. En una aplicación real, estos métodos contendrían el código necesario para realizar las acciones mencionadas.
-En una aplicación real, los métodos dentro de la clase **"Person"** contendrían el código necesario para realizar las acciones mencionadas en su implementación específica. Aquí te doy un ejemplo de cómo podrían ser implementados los métodos en una aplicación real:
+En una aplicación real, los métodos dentro de la clase **"Person"** contendrían el código necesario para realizar las acciones mencionadas en su implementación específica. 
 
+**Aquí te doy un ejemplo de cómo podrían ser implementados los métodos en una aplicación real:**
+
+```C#
 public class Person
 {
     // Atributos de la clase (propiedades autoimplementadas)
@@ -243,6 +254,7 @@ public class Person
         // Código adicional para realizar acciones relacionadas con comer, como registrar la comida consumida o calcular calorías, por ejemplo.
     }
 }
+```
 
 En este ejemplo, hemos agregado una implementación específica para cada uno de los métodos **"Talk"**, **"Walk"** y **"Eat"**. Al llamar a estos métodos en una aplicación real, se mostrarían mensajes específicos en la consola y se podrían llevar a cabo acciones adicionales relacionadas con las acciones que representan.
 Es importante destacar que la implementación de los métodos puede variar significativamente dependiendo de la funcionalidad requerida en la aplicación. En una aplicación real, los métodos podrían interactuar con bases de datos, realizar cálculos complejos, comunicarse con servicios externos, entre otras muchas posibilidades. La idea principal es que los métodos contengan el código necesario para realizar las acciones específicas que se deseen lograr en la aplicación en la que se esté trabajando.
@@ -258,6 +270,7 @@ A continuación, te mostraré cómo se podría reflejar cada uno de los aspectos
 
 **1.	Interacción con bases de datos:**
 
+```C#
 public class Person
 {
     // Atributos de la clase (propiedades autoimplementadas)
@@ -279,10 +292,11 @@ public class Person
         // Por ejemplo, utilizando ADO.NET, Entity Framework o algún ORM (Object-Relational Mapping).
     }
 }
-
+```
 Para ejemplificar el código de la clase **"Person"** que incluye los métodos para guardar y cargar información de la base de datos, necesitaremos simular una conexión a una base de datos utilizando **Entity Framework**. Entity Framework es un **ORM** (Object-Relational Mapping) que permite mapear objetos en una base de datos relacional y facilita la manipulación de datos. Aquí te presento un ejemplo sencillo de cómo se podría utilizar Entity Framework para guardar y cargar información de la base de datos en la clase "Person":
 Supongamos que tenemos una base de datos llamada "PersonDB" con una tabla "People" que tiene las siguientes columnas: **"Id"** (identificador), **"Name"** (nombre), **"Age"** (edad) y **"Address"** (dirección).
 
+```C#
 using System;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
@@ -331,6 +345,7 @@ public class PersonDbContext : DbContext
         optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=PersonDB;Integrated Security=True");
     }
 }
+```
 
 En este ejemplo, hemos creado una clase **"Person"** que tiene los atributos **"Name"**, **"Age"** y **"Address"**, junto con los métodos **"SaveToDatabase"** y **"LoadFromDatabase"**. Para utilizar Entity Framework, hemos creado un contexto de base de datos "PersonDbContext" que hereda de DbContext y que incluye un DbSet para la tabla **"People"**.
 
@@ -340,6 +355,7 @@ Es importante tener en cuenta que este es solo un ejemplo básico para ilustrar 
 
 A continuación, te mostraré cómo se podría mejorar el código para tener en cuenta consideraciones importantes en una aplicación real, como seguridad, manejo de errores y optimización de consultas utilizando Entity Framework:
 
+```C#
 using System;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
@@ -412,6 +428,7 @@ public class PersonDbContext : DbContext
         // Configurar reglas de seguridad u otras configuraciones de Entity Framework, si es necesario.
     }
 }
+```
 
 **En este ejemplo, hemos realizado las siguientes mejoras:**
 
@@ -423,6 +440,7 @@ public class PersonDbContext : DbContext
 
 **2.	Cálculos complejos:**
 
+```C#
 public class Person
 {
     // Atributos de la clase (propiedades autoimplementadas)
@@ -443,10 +461,11 @@ public class Person
         return totalAge / (double)people.Count;
     }
 }
-
+```
 
 **3.	Comunicación con servicios externos:**
 
+```C#
 public class Person
 {
     // Atributos de la clase (propiedades autoimplementadas)
@@ -461,10 +480,11 @@ public class Person
         // Luego, procesar la respuesta y actualizar los atributos de la persona con la información obtenida.
     }
 }
-
+```
 
 **4.	Validación y control de errores:**
 
+```C#
 public class Person
 {
     // Atributos de la clase (propiedades autoimplementadas)
@@ -484,10 +504,11 @@ public class Person
         return false;
     }
 }
-
+```
 
 **5.	Seguridad y autenticación:**
 
+```C#
 public class Person
 {
     // Atributos de la clase (propiedades autoimplementadas)
@@ -502,6 +523,7 @@ public class Person
         // Si la autenticación es exitosa, se podría devolver true; de lo contrario, false.
     }
 }
+```
 
 En cada uno de los métodos mencionados, la implementación dependerá de la lógica específica que se desee lograr en la aplicación. Estos ejemplos ilustran cómo los métodos de la clase "Person" podrían extenderse para incluir funcionalidades más complejas y abarcar distintos aspectos de una aplicación real. Es importante recordar que el código real puede variar dependiendo de los requerimientos y características de cada proyecto en particular.
 
@@ -509,6 +531,7 @@ En cada uno de los métodos mencionados, la implementación dependerá de la ló
 
 **Ejemplo Clase Bank:**
 
+```C#
 public class Bank
 {
     public string Name { get; set; }
@@ -530,6 +553,7 @@ public class Bank
         // Pagar facturas
     }
 }
+```
 
 El código proporcionado define una clase llamada **"Bank"** (Banco en español) que representa un banco en un sistema. Explicaré cada parte del código:
 
@@ -556,6 +580,7 @@ La clase **"Bank"** representa la entidad del banco y contiene propiedades para 
 
 **Ejemplo:**
 
+```C#
 // Define la clase Person
 public class Person
 {
@@ -596,6 +621,7 @@ person.Address = "Calle 123, Ciudad de México";
 person.Talk();
 person.Walk();
 person.Eat();
+```
 
 **Nota:** Este ejemplo crea una instancia de la clase **Person** y asigna valores a los datos de la instancia. Luego, llama a los métodos de la instancia para imprimir el nombre, la edad y la dirección de la persona, y para imprimir el mensaje **"La persona está caminando"** y **"La persona está comiendo"**.
 
@@ -606,6 +632,7 @@ person.Eat();
 
 **Ejemplo:**
 
+```C#
 // La clase Person representa a una persona.
 public class Person
 {
@@ -646,6 +673,7 @@ public class Employee : Person
         // El empleado cobra su salario.
     }
 }
+```
 
 **Nota:** Como puedes ver, la clase **Employee** hereda de la clase Person. Esto significa que la clase **Employee** tiene todos los datos y el comportamiento de la clase Person, más algunos datos y comportamiento adicionales específicos para los empleados. Por ejemplo, la clase **Employee** tiene los datos **EmployeeId**, **JobTitle**, y **Salary**, y los métodos **Work** y **GetPaid**.
 
@@ -655,6 +683,7 @@ public class Employee : Person
 
 **Ejemplo:**
 
+```C#
 class Animal:
     def __init__(self, name):
         self.name = name
@@ -684,6 +713,7 @@ display_animal(animal)
 # Output:
 # My name is Fluffy.
 # Meow!
+```
 
 **Nota:** Como puede ver, la función **display_animal** puede ser llamada con diferentes tipos de objetos, y la función se comportará de forma diferente dependiendo del tipo de objeto. Cuando la función **display_animal** es llamada con un objeto **Dog**, el método **speak** del objeto **Dog** es llamado. Cuando la función **display_animal** es llamada con un objeto **Cat**, el método **speak** del objeto **Cat** es llamado.
 
@@ -696,6 +726,7 @@ El polimorfismo es una característica poderosa de la programación orientada a 
 
 **Ejemplo:**
 
+```C#
 // Interface IAnimal
 interface IAnimal
 {
@@ -783,16 +814,18 @@ public class MainClass
         cat.eat();
     }
 }
+```
 
-**Nota:**Este código crea dos clases, **Dog** y **Cat**, que implementan la interfaz **IAnimal**. La interfaz IAnimal define los métodos **talk**, **walk**, y **eat**. Las clases **Dog** y **Cat** implementan estos métodos para que sus objetos puedan hablar, caminar y comer. El programa principal crea un objeto **Dog** y un objeto **Cat**, y llama a los métodos **talk**, **walk**, y eat en cada objeto. El programa imprime las siguientes salidas:
+**Nota:** Este código crea dos clases, **Dog** y **Cat**, que implementan la interfaz **IAnimal**. La interfaz IAnimal define los métodos **talk**, **walk**, y **eat**. Las clases **Dog** y **Cat** implementan estos métodos para que sus objetos puedan hablar, caminar y comer. El programa principal crea un objeto **Dog** y un objeto **Cat**, y llama a los métodos **talk**, **walk**, y eat en cada objeto. El programa imprime las siguientes salidas:
 
+```C#
 Woof!
 The dog is walking.
 The dog is eating.
 Meow!
 The cat is walking.
 The cat is eating.
-
+```
 Este código ilustra cómo las interfaces se pueden utilizar para definir un contrato que debe ser implementado por las clases. Esto ayuda a garantizar que las clases compartan un conjunto común de métodos, lo que puede hacer que el código sea más fácil de mantener y reutilizar.
 
 ## **Actividades por parte del estudiante**
@@ -811,30 +844,30 @@ A continuación, se presentan algunas actividades que se pueden realizar para re
 
 # Evaluación diagnóstica que se puede utilizar para medir el conocimiento previo de los estudiantes sobre programación orientada a objetos (POO):
 
-- Pregunta 1: ¿Cuál es la definición de una clase en POO?
+- **Pregunta 1:** ¿Cuál es la definición de una clase en POO?
 
 Respuesta: Una clase es una plantilla para crear objetos. Una clase define los datos y el comportamiento de los objetos que crea.
 
-- Pregunta 2: ¿Cuál es la definición de un objeto en POO?
+- **Pregunta 2:** ¿Cuál es la definición de un objeto en POO?
 
 Respuesta: Un objeto es una instancia de una clase. Un objeto tiene los datos y el comportamiento definidos por su clase.
 
-- Pregunta 3: ¿Qué es la herencia en POO?
+- **Pregunta 3:** ¿Qué es la herencia en POO?
 
 Respuesta: La herencia es la capacidad de una clase de heredar los datos y el comportamiento de otra clase.
 
-- Pregunta 4: ¿Qué es el polimorfismo en POO?
+- **Pregunta 4:** ¿Qué es el polimorfismo en POO?
 
 Respuesta: El polimorfismo es la capacidad de una función para realizar diferentes tareas dependiendo del tipo de objeto al que se llama.
 
-- Pregunta 5: ¿Qué es una interfaz en POO?
+- **Pregunta 5:** ¿Qué es una interfaz en POO?
 
 Respuesta: Una interfaz es un contrato que define los comportamientos comunes de una clase.
 
 # Prueba escrita que se puede utilizar para evaluar el nivel de comprensión inicial de los estudiantes sobre POO:
 
-- Pregunta 1: Escriba un programa en C# que cree una clase para representar un automóvil. La clase debe tener datos para representar el color, el modelo y el año del automóvil. También debe tener métodos para representar el arranque del automóvil, la conducción del automóvil y el estacionamiento del automóvil.
+- **Pregunta 1:** Escriba un programa en C# que cree una clase para representar un automóvil. La clase debe tener datos para representar el color, el modelo y el año del automóvil. También debe tener métodos para representar el arranque del automóvil, la conducción del automóvil y el estacionamiento del automóvil.
 
-- Pregunta 2: Escriba un programa en C# que cree una clase para representar una persona. La clase debe tener datos para representar el nombre, la edad y la dirección de la persona. También debe tener métodos para representar la conversación de la persona, la caminata de la persona y la comida de la persona.
+- **Pregunta 2:** Escriba un programa en C# que cree una clase para representar una persona. La clase debe tener datos para representar el nombre, la edad y la dirección de la persona. También debe tener métodos para representar la conversación de la persona, la caminata de la persona y la comida de la persona.
 
-- Pregunta 3: Escriba un programa en C# que cree una clase para representar un banco. La clase debe tener datos para representar el nombre del banco, la dirección del banco y la lista de clientes del banco. También debe tener métodos para representar la apertura de una cuenta, la transferencia de fondos y el pago de facturas.
+- **Pregunta 3:** Escriba un programa en C# que cree una clase para representar un banco. La clase debe tener datos para representar el nombre del banco, la dirección del banco y la lista de clientes del banco. También debe tener métodos para representar la apertura de una cuenta, la transferencia de fondos y el pago de facturas.
