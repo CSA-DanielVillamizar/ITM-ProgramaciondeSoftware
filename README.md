@@ -1,7 +1,7 @@
-# ITM-ProgramaciondeSoftware
-Cátedra Programación de Software y Programática 
+# ITM-Programación de Software
+## Cátedra Programación de Software y Programática 
 
-Descripción
+**Descripción**
 
 Blazor es la tecnología de Microsoft para usar C#, Razor y HTML para crear aplicaciones web enriquecidas del lado del cliente. En este curso, ASP.NET Core 6 Blazor Fundamentals, aprenderá a crear una aplicación completa de principio a fin. Primero, explorará qué es Blazor y qué hacen los muchos archivos en un nuevo proyecto. A continuación, verá cómo crear una aplicación completa con varias pantallas, navegación, autenticación y datos a los que se accede desde una API remota. Por último, aprenderá a implementar la aplicación en un servicio de aplicaciones en Azure. Cuando haya terminado con este curso, tendrá las habilidades y el conocimiento de Blazor necesarios para crear una aplicación completa del mundo real utilizando la tecnología.
 
