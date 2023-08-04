@@ -166,7 +166,7 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-En el bloque ``Python if __name__ == "__main__":, llamamos a ``Python asyncio.run(main()). La función asyncio.run() es una forma conveniente de ejecutar una función asincrónica como main(). En este caso, ejecutará la función main(), que, a su vez, ejecutará las tres operaciones de entrada/salida en paralelo.
+En el bloque ``Python if __name__ == "__main__":, llamamos a ```Python asyncio.run(main())```. La función asyncio.run() es una forma conveniente de ejecutar una función asincrónica como main(). En este caso, ejecutará la función main(), que, a su vez, ejecutará las tres operaciones de entrada/salida en paralelo.
 El código utiliza asyncio para ejecutar tareas asincrónicas en paralelo, lo que permite aprovechar mejor el tiempo de espera en operaciones de entrada/salida y mejorar la eficiencia del programa.
 Nota: Para realizar este ejemplo de programación asíncrona utilizando el módulo asyncio en Python, necesitas tener instalada una versión de Python igual o superior a 3.7, ya que asyncio.run() fue introducido en la versión 3.7.
 A continuación, los pasos que debes seguir para realizar el ejemplo:
