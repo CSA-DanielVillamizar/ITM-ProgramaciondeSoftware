@@ -166,7 +166,7 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-En el bloque ``Python if __name__ == "__main__":, llamamos a ```Python asyncio.run(main())```. La función asyncio.run() es una forma conveniente de ejecutar una función asincrónica como main(). En este caso, ejecutará la función main(), que, a su vez, ejecutará las tres operaciones de entrada/salida en paralelo.
+En el bloque if __name__ == "__main__":, llamamos a asyncio.run(main()). La función asyncio.run() es una forma conveniente de ejecutar una función asincrónica como main(). En este caso, ejecutará la función main(), que, a su vez, ejecutará las tres operaciones de entrada/salida en paralelo.
 El código utiliza asyncio para ejecutar tareas asincrónicas en paralelo, lo que permite aprovechar mejor el tiempo de espera en operaciones de entrada/salida y mejorar la eficiencia del programa.
 Nota: Para realizar este ejemplo de programación asíncrona utilizando el módulo asyncio en Python, necesitas tener instalada una versión de Python igual o superior a 3.7, ya que asyncio.run() fue introducido en la versión 3.7.
 A continuación, los pasos que debes seguir para realizar el ejemplo:
@@ -179,7 +179,7 @@ A continuación, los pasos que debes seguir para realizar el ejemplo:
 7.	Guardar y ejecutar el código: Guarda el archivo Python con el contenido del ejemplo y asegúrate de que tenga una extensión .py. Luego, abre la terminal o línea de comandos, navega hasta la ubicación del archivo y ejecuta el script con el comando 'python nombre_del_archivo.py'. 
 El programa ejecutará las operaciones de entrada/salida en paralelo y mostrará los mensajes "IO operation completed" una vez que finalicen las esperas simuladas. Si todo se hizo correctamente, verás los resultados de las tres operaciones en aproximadamente 3 segundos (el tiempo total de espera más largo).
 Recuerda que este ejemplo es básico para entender los conceptos de programación asíncrona, y en aplicaciones reales, las operaciones de I/O pueden ser más complejas y requerir un enfoque asincrónico para mejorar el rendimiento. ¡Disfruta aprendiendo sobre programación asíncrona en Python!
-```
+
 
 Ahora veamos como seria con ASP.NET a traves de un ejemplo de una aplicación sencilla que utiliza programación asíncrona:
 
